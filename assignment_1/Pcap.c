@@ -43,6 +43,7 @@ struct TCP {
     uint16_t Urgent_Pointer;
 } __attribute__ ((__packed__));
 
+// TCP Payload를 저장할 구조체 선언
 struct TCP_Payload {
     uint8_t payload[16];
 }__attribute__ ((__packed__));
