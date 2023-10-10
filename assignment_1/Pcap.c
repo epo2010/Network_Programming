@@ -49,8 +49,8 @@ struct TCP_Payload {
 }__attribute__ ((__packed__));
 
 void usage() {
-    printf("syntax: pcap-test <interface>\n");
-    printf("sample: pcap-test wlan0\n");
+    printf("syntax: Pcap <interface>\n");
+    printf("sample: Pcap wlan0\n");
 }
 
 typedef struct {
